@@ -6,7 +6,44 @@ body {
 .wrap {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
 }
+.top-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 366px;
+  width: 366px;
+}
+.row-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border:1px solid red;
+  font-size: 25px;
+}
+.bottom-box {
+  height: 180px;
+  width: 366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-box div{
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  background: green;
+}
+
